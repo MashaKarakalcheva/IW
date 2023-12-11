@@ -1,0 +1,26 @@
+{
+  "name": "movie",
+  "type": "module",
+  "version": "0.0.1",
+  "author": "masha kate",
+  "main": "index.js",
+  "license": "USM",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.5",
+    "nodemon": "^3.0.2",
+    "sequelize": "^6.35.1"
+  }
+}
